@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Least Squares Regression</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-half">
+        <div class="pairs-style">
+          <div>
+            <input type="number" class="input-x" id="sq" placeholder="Sq">
+          </div>
+          <div>
+            <input type="number" class="input-y" id="bd" placeholder="Beds">
+          </div>
+          <div>
+            <input type="number" class="input-z" id="bt" placeholder="Bath">
+          </div>
+          <div>
+            <input type="number" class="input-b" id="pool" placeholder="pool">
+          </div>
+          <button class="btn-update-graph">Add</button> 
+        </div>
+        <div>
+          <table class="table-pairs">
+            <thead>
+              <th>
+                sq
+              </th>
+              <th>
+                bed
+              </th>
+              <th>
+                bath
+              </th>
+              <th>
+                pool
+            </thead>
+            <tbody></tbody>
+          </table>
+          <div>
+            <span class="cost"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="least-squares.js"></script>
+  </body>
+</html>
